@@ -29,7 +29,6 @@ jobs:
           
       - name: Validate Data
         run: |
-          mkdir results
           python data_validation.py
 
       - name: Validate Model Performance
