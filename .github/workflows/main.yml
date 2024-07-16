@@ -36,7 +36,7 @@ jobs:
           python train_validation.py
 
       - name: Archive Deepchecks Results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: deepchecks results
